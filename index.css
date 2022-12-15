@@ -236,6 +236,9 @@ img {
   border-radius: 0.5rem;
   background: var(--gardient-color);
 }
+#downloadcv {
+  margin-top: 5px;
+}
 
 .button:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
@@ -524,3 +527,9 @@ img {
     right: 10%;
   }
 }
+
+#download {
+  padding: 0;
+}
+
+/* ///////////////cards////////////////// */

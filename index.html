@@ -55,17 +55,26 @@
             ><br />Web Designer
           </h1>
           <a href="#contact" class="button"> Contact</a>
+          <a
+            href="./GANGADHAR-RESUME.pdf"
+            target="_blank"
+            id="downloadcv"
+            class="button"
+            >Download my CV</a
+          >
         </div>
 
         <div class="home_social">
           <a
             href="https://www.facebook.com/aravind.s.7334504"
+            target="_blank"
             class="home_social-icon"
             data-aos="fade-down"
             ><i class="bx bxl-facebook-circle"></i
           ></a>
           <a
             href="https://www.instagram.com/aravind_2k/"
+            target="_blank"
             class="home_social-icon"
             data-aos="fade-down"
             data-aos-delay="250"
@@ -73,6 +82,7 @@
           ></a>
           <a
             href="https://twitter.com/2kAravind"
+            target="_blank"
             class="home_social-icon"
             data-aos="fade-down"
             data-aos-delay="300"
@@ -80,6 +90,7 @@
           ></a>
           <a
             href="https://github.com/Gangadhar2k"
+            target="_blank"
             class="home_social-icon"
             data-aos="fade-down"
             data-aos-delay="350"
@@ -991,27 +1002,39 @@
           data-aos-delay="250"
         >
           <div class="work_img">
-            <img src="./assets/img/work1.jpg" alt="" />
+            <a href="https://github.com/Gangadhar2k" target="_blank">
+              <img src="./assets/img/work1.jpg" alt="" />
+            </a>
           </div>
 
           <div class="work_img">
-            <img src="./assets/img/work2.jpg" alt="" />
+            <a href="https://github.com/Gangadhar2k" target="_blank">
+              <img src="./assets/img/work2.jpg" alt="" />
+            </a>
           </div>
 
           <div class="work_img">
-            <img src="./assets/img/work3.jpg" alt="" />
+            <a href="https://github.com/Gangadhar2k" target="_blank">
+              <img src="./assets/img/work3.jpg" alt="" />
+            </a>
           </div>
 
           <div class="work_img">
-            <img src="./assets/img/work4.jpg" alt="" />
+            <a href="https://github.com/Gangadhar2k" target="_blank">
+              <img src="./assets/img/work4.jpg" alt="" />
+            </a>
           </div>
 
           <div class="work_img">
-            <img src="./assets/img/work5.jpg" alt="" />
+            <a href="https://github.com/Gangadhar2k" target="_blank">
+              <img src="./assets/img/work5.jpg" alt="" />
+            </a>
           </div>
 
           <div class="work_img">
-            <img src="./assets/img/work6.jpg" alt="" />
+            <a href="https://github.com/Gangadhar2k" target="_blank">
+              <img src="./assets/img/work6.jpg" alt="" />
+            </a>
           </div>
         </div>
       </section>
@@ -1022,23 +1045,32 @@
         <h2 class="section-title" data-aos="fade-down">Contact</h2>
 
         <div class="contact_container bd_grid">
-          <form action="#" class="contact_form">
+          <form
+            id="my-form"
+            class="contact_form"
+            action="https://formspree.io/f/xzbqppwv"
+            method="POST"
+          >
             <input
               type="text"
               placeholder="Name"
+              name="Name"
+              required
               class="control_input"
               data-aos="fade-right"
               data-aos-delay="250"
             />
             <input
               type="mail"
+              name="Email"
+              required
               placeholder="Email"
               class="control_input"
               data-aos="fade-right"
               data-aos-delay="300"
             />
             <textarea
-              name=""
+              name="Message"
               id=""
               cols="0"
               rows="10"
@@ -1047,14 +1079,17 @@
               data-aos-delay="400"
             ></textarea>
 
-            <input
-              type="button"
+            <button
+              type="submit"
               value="Send"
               class="control_button button"
               data-aos="fade-right"
               data-aos-delay="450"
-            />
+            >
+              Send
+            </button>
           </form>
+          <p id="my-form-status"></p>
         </div>
       </section>
 
@@ -1065,6 +1100,7 @@
         <div class="footer_socials">
           <a
             href="https://www.facebook.com/aravind.s.7334504"
+            target="_blank"
             class="footer_icon"
             data-aos="fade-down"
             data-aos-delay="250"
@@ -1072,6 +1108,7 @@
           ></a>
           <a
             href="https://www.instagram.com/aravind_2k/"
+            target="_blank"
             class="footer_icon"
             data-aos="fade-down"
             data-aos-delay="350"
@@ -1079,6 +1116,7 @@
           ></a>
           <a
             href="https://twitter.com/2kAravind"
+            target="_blank"
             class="footer_icon"
             data-aos="fade-down"
             data-aos-delay="450"
@@ -1086,15 +1124,15 @@
           ></a>
           <a
             href="https://github.com/Gangadhar2k"
+            target="_blank"
             class="footer_icon"
             data-aos="fade-down"
             data-aos-delay="550"
             ><i class="bx bxl-github"></i
           ></a>
         </div>
-
         <p data-aos="fade-down" data-aos-delay="650">
-          &#169; 2021 copyright all right reserved
+          &#169; 2022 copyright all right reserved
         </p>
       </footer>
     </main>
